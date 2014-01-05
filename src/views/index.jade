@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  div.container
+    h1= title
+    p Welcome to #{title}
+    each game in games
+        li
+            h4=game.name

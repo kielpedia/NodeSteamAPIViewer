@@ -1,0 +1,32 @@
+doctype html
+
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/lib/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/lib/css/bootstrap-theme.min.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js')
+    script(src='/lib/js/bootstrap.min.js')
+  body
+    div(role='navigation' class='navbar navbar-default navbar-fixed-top')
+        div.container
+            div.navbar-header
+                button(type='button', class='navbar-toggle', data-toggle='collapse', data-target='.navbar-collapse')
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+                a(class='navbar-brand', href='#') Steam Viewer
+            div(class='navbar-collapse collapse')
+                ul.nav.navbar-nav
+                    li.active
+                        a(href='/') Home
+                    li
+                        a(href='user') User
+                    li
+                        a(href='games') Games
+                    li
+                        a(href='friends') Friends
+    div.container
+        block content

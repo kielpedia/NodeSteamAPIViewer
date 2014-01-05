@@ -1,0 +1,28 @@
+{
+    "response": {
+        "players": [
+            {
+                "steamid": "76561197960435530",
+                "communityvisibilitystate": 3,
+                "profilestate": 1,
+                "personaname": "Robin",
+                "lastlogoff": 1388678265,
+                "profileurl": "http://steamcommunity.com/id/robinwalker/",
+                "avatar": "http://media.steampowered.com/steamcommunity/public/images/avatars/f1/f1dd60a188883caf82d0cbfccfe6aba0af1732d4.jpg",
+                "avatarmedium": "http://media.steampowered.com/steamcommunity/public/images/avatars/f1/f1dd60a188883caf82d0cbfccfe6aba0af1732d4_medium.jpg",
+                "avatarfull": "http://media.steampowered.com/steamcommunity/public/images/avatars/f1/f1dd60a188883caf82d0cbfccfe6aba0af1732d4_full.jpg",
+                "personastate": 1,
+                "realname": "Robin Walker",
+                "primaryclanid": "103582791429521412",
+                "timecreated": 1063407589,
+                "personastateflags": 0,
+                "gameextrainfo": "Dota 2",
+                "gameid": "570",
+                "loccountrycode": "US",
+                "locstatecode": "WA",
+                "loccityid": 3961
+            }
+        ]
+
+    }
+}

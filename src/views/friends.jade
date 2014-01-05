@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div.container
+    h1= title
+    p Welcome to the friends list page
+    ul
+        each friend in players
+            li
+                img(src=friend.avatar)
+                a(href=friend.profileurl)=friend.personaname

@@ -1,0 +1,16 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/.bin/mocha -R nyan test --recursive"
+  },
+  "dependencies": {
+    "express": "3.4.7",
+    "jade": "*",
+    "mocha": "*",
+    "request": "*",
+    "sinon": "*"
+  }
+}
