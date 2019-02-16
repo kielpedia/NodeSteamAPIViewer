@@ -1,6 +1,6 @@
 var request = require('request');
 var baseUrl = 'http://api.steampowered.com/';
-var key = '351FFAECC51CCAF6F94AD55556A79407';
+var key = 'whoopsies';
 
 var friendList = function (steamid, callback) {
     var url = baseUrl + 'ISteamUser/GetFriendList/v0001/?key=' +
